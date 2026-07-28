@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "generative-ui",
+  "type": "registry:component",
+  "dependencies": [
+    "@assistant-ui/react-generative-ui",
+    "react-markdown",
+    "remark-gfm"
+  ],
+  "registryDependencies": [
+    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/generative-ui-style.json"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "path": "components/assistant-ui/generative-ui.tsx",
+      "content": "\"use client\";\n\nimport ReactMarkdown from \"react-markdown\";\nimport remarkGfm from \"remark-gfm\";\nimport type { GenerativeUILibrary } from \"@assistant-ui/react-generative-ui\";\nimport { defaultGenerativeUILibrary } from \"@assistant-ui/react-generative-ui\";\n\nconst markdownBase = defaultGenerativeUILibrary.Markdown!;\n\n/** `MarkdownTextPrimitive` cannot be reused here: it reads from message-part context, not a prop string. */\nexport const styledGenerativeUILibrary: GenerativeUILibrary = {\n  ...defaultGenerativeUILibrary,\n  Markdown: {\n    properties: markdownBase.properties,\n    streamProperties: markdownBase.streamProperties,\n    description: \"A markdown string, rendered with GitHub-flavored markdown.\",\n    render: ({ value, children }) => (\n      <div data-aui=\"markdown\">\n        <ReactMarkdown remarkPlugins={[remarkGfm]}>{value ?? \"\"}</ReactMarkdown>\n        {children}\n      </div>\n    ),\n  },\n};\n"
+    }
+  ]
+}

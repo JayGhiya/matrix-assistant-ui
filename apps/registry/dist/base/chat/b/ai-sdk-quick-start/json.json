@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chat/b/ai-sdk-quick-start/json",
+  "type": "registry:page",
+  "registryDependencies": [
+    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/ai-sdk-backend.json",
+    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/thread.json"
+  ],
+  "dependencies": [
+    "@assistant-ui/react-ai-sdk"
+  ],
+  "meta": {
+    "importSpecifier": "Assistant",
+    "moduleSpecifier": "@/app/assistant",
+    "nextVersion": "15.1.6"
+  },
+  "files": [
+    {
+      "type": "registry:page",
+      "path": "app/ai-sdk/assistant.tsx",
+      "target": "app/assistant.tsx",
+      "content": "\"use client\";\n\nimport { AssistantRuntimeProvider } from \"@assistant-ui/react\";\nimport {\n  useChatRuntime,\n  AssistantChatTransport,\n} from \"@assistant-ui/react-ai-sdk\";\nimport { lastAssistantMessageIsCompleteWithToolCalls } from \"ai\";\nimport { Thread } from \"@/components/assistant-ui/thread\";\n\nexport const Assistant = () => {\n  const runtime = useChatRuntime({\n    sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,\n    transport: new AssistantChatTransport({\n      api: \"/api/chat\",\n    }),\n  });\n\n  return (\n    <AssistantRuntimeProvider runtime={runtime}>\n      <div className=\"h-dvh\">\n        <Thread />\n      </div>\n    </AssistantRuntimeProvider>\n  );\n};\n"
+    }
+  ]
+}
