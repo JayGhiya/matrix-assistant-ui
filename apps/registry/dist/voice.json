@@ -8,7 +8,7 @@
   ],
   "registryDependencies": [
     "button",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/tooltip-icon-button.json"
+    "https://r.assistant-ui.com/tooltip-icon-button.json"
   ],
   "files": [
     {

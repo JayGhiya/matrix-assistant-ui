@@ -6,7 +6,7 @@
     "button",
     "input",
     "skeleton",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/tooltip-icon-button.json"
+    "https://r.assistant-ui.com/base/tooltip-icon-button.json"
   ],
   "dependencies": [
     "@assistant-ui/react",

@@ -7,7 +7,7 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/badge.json"
+    "https://r.assistant-ui.com/base/badge.json"
   ],
   "files": [
     {
