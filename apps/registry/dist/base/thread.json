@@ -8,13 +8,13 @@
   ],
   "registryDependencies": [
     "button",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/attachment.json",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/follow-up-suggestions.json",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/markdown-text.json",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/reasoning.json",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/tooltip-icon-button.json",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/tool-fallback.json",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/tool-group.json"
+    "https://r.assistant-ui.com/base/attachment.json",
+    "https://r.assistant-ui.com/base/follow-up-suggestions.json",
+    "https://r.assistant-ui.com/base/markdown-text.json",
+    "https://r.assistant-ui.com/base/reasoning.json",
+    "https://r.assistant-ui.com/base/tooltip-icon-button.json",
+    "https://r.assistant-ui.com/base/tool-fallback.json",
+    "https://r.assistant-ui.com/base/tool-group.json"
   ],
   "files": [
     {

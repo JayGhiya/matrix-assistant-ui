@@ -7,7 +7,7 @@
   ],
   "registryDependencies": [
     "resizable",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/thread.json"
+    "https://r.assistant-ui.com/thread.json"
   ],
   "files": [
     {
