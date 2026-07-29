@@ -58,6 +58,8 @@ jobs:
 
       - name: Commit registry output
         id: commit
+        env:
+          HUSKY: "0"
         run: |
           git add --all --force -- apps/registry/dist
 
