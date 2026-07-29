@@ -26,7 +26,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          token: ${{ secrets.REGISTRY_SYNC_TOKEN || github.token }}
+          token: ${{ secrets.REGISTRY_TOKEN_SYNC }}
 
       - name: Create temporary branch
         run: git switch --create "$TEMP_BRANCH"
@@ -82,7 +82,7 @@ jobs:
       - name: Create pull request
         if: steps.commit.outputs.has_changes == 'true'
         env:
-          GH_TOKEN: ${{ secrets.REGISTRY_SYNC_TOKEN || github.token }}
+          GH_TOKEN: ${{ secrets.REGISTRY_TOKEN_SYNC }}
         run: |
           upstream_sha="$(git rev-parse "upstream/$UPSTREAM_BRANCH")"
           upstream_url="https://github.com/$UPSTREAM_REPOSITORY/commit/$upstream_sha"
