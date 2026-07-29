@@ -98,8 +98,9 @@ jobs:
             > "$RUNNER_TEMP/pull-request-body.md"
 
           pr_url="$(gh pr create \
+            --repo "$GITHUB_REPOSITORY" \
             --base main \
-            --head "$TEMP_BRANCH" \
+            --head "$GITHUB_REPOSITORY_OWNER:$TEMP_BRANCH" \
             --title "feat: sync/update based on upstream and rebuild registry" \
             --body-file "$RUNNER_TEMP/pull-request-body.md")"
           echo "Created pull request: $pr_url" >> "$GITHUB_STEP_SUMMARY"
