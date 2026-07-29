@@ -33,8 +33,8 @@
         }
       ],
       "registryDependencies": [
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/ai-sdk-backend.json",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/thread.json"
+        "https://r.assistant-ui.com/ai-sdk-backend.json",
+        "https://r.assistant-ui.com/thread.json"
       ],
       "dependencies": [
         "@assistant-ui/react-ai-sdk"
@@ -108,13 +108,13 @@
       ],
       "registryDependencies": [
         "button",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/attachment.json",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/follow-up-suggestions.json",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/markdown-text.json",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/reasoning.json",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/tooltip-icon-button.json",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/tool-fallback.json",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/tool-group.json"
+        "https://r.assistant-ui.com/attachment.json",
+        "https://r.assistant-ui.com/follow-up-suggestions.json",
+        "https://r.assistant-ui.com/markdown-text.json",
+        "https://r.assistant-ui.com/reasoning.json",
+        "https://r.assistant-ui.com/tooltip-icon-button.json",
+        "https://r.assistant-ui.com/tool-fallback.json",
+        "https://r.assistant-ui.com/tool-group.json"
       ]
     },
     {
@@ -133,7 +133,7 @@
       ],
       "registryDependencies": [
         "button",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/tooltip-icon-button.json"
+        "https://r.assistant-ui.com/tooltip-icon-button.json"
       ]
     },
     {
@@ -147,7 +147,7 @@
         }
       ],
       "registryDependencies": [
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/tooltip-icon-button.json"
+        "https://r.assistant-ui.com/tooltip-icon-button.json"
       ],
       "dependencies": [
         "@assistant-ui/react-markdown",
@@ -167,7 +167,7 @@
       ],
       "registryDependencies": [
         "collapsible",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/markdown-text.json"
+        "https://r.assistant-ui.com/markdown-text.json"
       ],
       "dependencies": [
         "@assistant-ui/react",
@@ -246,7 +246,7 @@
         "button",
         "input",
         "skeleton",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/tooltip-icon-button.json"
+        "https://r.assistant-ui.com/tooltip-icon-button.json"
       ],
       "dependencies": [
         "@assistant-ui/react",
@@ -291,7 +291,7 @@
         "dialog",
         "tooltip",
         "avatar",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/tooltip-icon-button.json"
+        "https://r.assistant-ui.com/tooltip-icon-button.json"
       ],
       "dependencies": [
         "@assistant-ui/react",
@@ -364,8 +364,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/thread.json",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/tooltip-icon-button.json"
+        "https://r.assistant-ui.com/thread.json",
+        "https://r.assistant-ui.com/tooltip-icon-button.json"
       ]
     },
     {
@@ -383,7 +383,7 @@
       ],
       "registryDependencies": [
         "resizable",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/thread.json"
+        "https://r.assistant-ui.com/thread.json"
       ]
     },
     {
@@ -538,7 +538,7 @@
       ],
       "registryDependencies": [
         "sidebar",
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/thread-list.json"
+        "https://r.assistant-ui.com/thread-list.json"
       ]
     },
     {
@@ -572,7 +572,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/badge.json"
+        "https://r.assistant-ui.com/badge.json"
       ]
     },
     {
@@ -813,7 +813,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/badge.json"
+        "https://r.assistant-ui.com/badge.json"
       ]
     },
     {
@@ -1502,7 +1502,7 @@
         "remark-gfm"
       ],
       "registryDependencies": [
-        "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/generative-ui-style.json"
+        "https://r.assistant-ui.com/generative-ui-style.json"
       ]
     }
   ]

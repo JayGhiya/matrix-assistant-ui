@@ -4,7 +4,7 @@
   "type": "registry:component",
   "registryDependencies": [
     "collapsible",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/markdown-text.json"
+    "https://r.assistant-ui.com/base/markdown-text.json"
   ],
   "dependencies": [
     "@assistant-ui/react",

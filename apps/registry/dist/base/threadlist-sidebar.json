@@ -7,7 +7,7 @@
   ],
   "registryDependencies": [
     "sidebar",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/thread-list.json"
+    "https://r.assistant-ui.com/base/thread-list.json"
   ],
   "files": [
     {
