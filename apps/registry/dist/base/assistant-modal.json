@@ -7,8 +7,8 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/thread.json",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/tooltip-icon-button.json",
+    "https://r.assistant-ui.com/base/thread.json",
+    "https://r.assistant-ui.com/base/tooltip-icon-button.json",
     "popover"
   ],
   "files": [

@@ -8,7 +8,7 @@
     "remark-gfm"
   ],
   "registryDependencies": [
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/generative-ui-style.json"
+    "https://r.assistant-ui.com/base/generative-ui-style.json"
   ],
   "files": [
     {

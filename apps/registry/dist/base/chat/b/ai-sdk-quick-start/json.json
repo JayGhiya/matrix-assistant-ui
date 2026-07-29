@@ -3,8 +3,8 @@
   "name": "chat/b/ai-sdk-quick-start/json",
   "type": "registry:page",
   "registryDependencies": [
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/ai-sdk-backend.json",
-    "https://raw.githubusercontent.com/JayGhiya/matrix-assistant-ui/main/apps/registry/dist/base/thread.json"
+    "https://r.assistant-ui.com/base/ai-sdk-backend.json",
+    "https://r.assistant-ui.com/base/thread.json"
   ],
   "dependencies": [
     "@assistant-ui/react-ai-sdk"
